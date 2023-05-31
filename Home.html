@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start a day....</title>
+
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="respostive.css">
+
+    <!-- box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- jquery -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+
+
+
+    <script>
+
+        //  record Submit button 
+        $(document).ready(function () {
+            $("#button").click(function () {
+                alert("your record sended" + " " + $("#name"), $("#email"), $("textarea").valueOf());
+            });
+        });
+    </script> -->
+
+
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <a href="#" class="logo"><img src="./imgs/logo.avif"></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#tamplets">Tamplets</a></li>
+            <li><a href="#delivery">Delivery</a></li>
+            <li><a href="#app"> App</a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#contact">Contact </a></li>
+        </ul>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home"
+        style="background-image: linear-gradient( to left,#D7B7A3,#985E49,#765341,#EAE7E7,#C6976E);">
+        <div class="home-text">
+            <span style="font-family: 'Zeyada', cursive; font-size: 20px;">But first,coffee. </span>
+            <h1 style="font-family: 'Julee', cursive;" class="gradiant-ani">Corretto coffee</h1>
+            <h2 style="font-family: 'Tangerine', cursive;">Another Day,<br> another cup of coffee....</h2>
+            <a href="https://www.zomato.com/pune/cafe-peter-aundh" class="btn"
+                style="font-family: 'Caveat', cursive;">Join Now</a>
+        </div>
+        <!-- <div class="home-img">
+            <img src="./imgs/homepage.webp" style="border-radius: 30px; opacity: 0.8;">
+
+        </div> -->
+
+        <div class="profile">
+            <img src="./imgs/img1.jpeg">
+            <div class="info">
+                <h2 style="font-family: 'Caveat', cursive;">Procoffeinating</h2><br>
+                <p style="font-family: 'Dancing Script', cursive;">Life is better with a coffee in hand
+                    <br>
+                    Make some coffeeand own the day<br>
+                    all you need is love and good coffee
+                    <br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- options -->
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>Shop Now</span>
+            <h1 style="font-family: 'Shantell Sans', cursive;color: #532C1F;">Shop coffee</h1>
+        </div>
+        <div class="shop-centainer">
+            <div class="box">
+                <div class="box-img">
+                    <img src="./imgs/coffee.avif" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2 style="color: #532C1F; font-family: 'Tangerine', cursive;"> Coffee</h2>
+                <span>$ 12.4</span>
+                <a class="btn" href="./buychocolate.html">Order Now</a>
+            </div>
+
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="./imgs/desserts.avif" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2 style="color: #532C1F; font-family: 'Tangerine', cursive;">Desserts</h2>
+                <span>$ 12.4</span>
+                <a class="btn"
+                    href="C:\Users\Samruddhi\OneDrive\Desktop\html\project\samrudhi_danole_project\webproject.html\Buy coffee.html">Order
+                    Now</a>
+            </div>
+
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="./imgs/special.avif" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <h2 style="color: #532C1F; font-family: 'Tangerine', cursive;">Specials</h2>
+                <span>$ 12.4</span>
+                <a class="btn"
+                    href="C:\Users\Samruddhi\OneDrive\Desktop\html\project\samrudhi_danole_project\webproject.html\Buy coffee.html">Order
+                    Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Shop tamplets about app  -->
+    <section class="app" id="tamplets"
+        style="background-image: linear-gradient( to right,#8b6c5c,#a08679,#6a4a3a,#765341);">
+        <div class="heading">
+            <span>Shop</span>
+            <h1 style="font-family: 'Shantell Sans', cursive;color: #532C1F;">Shop Tamplets</h1>
+            <h2 style="font-family: 'Shantell Sans', cursive;color: #532C1F; text-align: center;">fall into an easier
+                routine</h2>
+        </div>
+
+        <div class="zoomhover">
+            <div class="box1">
+                <img src="./imgs/tamp3.webp" alt="">
+                <span style="text-align: center;">menu card</span>
+            </div>
+            <div class="box1">
+                <img src="./imgs/tamp4.webp" alt="">
+                <span>tamp</span>
+            </div>
+            <div class="box1">
+                <img src="./imgs/tamp5.jpg" alt="">
+                <span>coffee</span>
+            </div>
+            <div class="box1">
+                <img src="./imgs/tamp6.jpg" alt="">
+                <span>tamp</span>
+            </div>
+            <div class="box1">
+                <img src="./imgs/tamp7.jpg" alt="">
+                <span>coffee</span>
+            </div>
+
+    </section>
+
+
+
+    <!-- Delivery Order now -->
+    <section class="delivery" id="delivery">
+        <div class="heading">
+            <span>Get Now</span>
+            <h1 style="font-family: 'Shantell Sans', cursive;color: #532C1F;">Order with coffee Peter</h1>
+        </div>
+        <div class="container">
+            <div class="delivery_img">
+                <img src="./imgs/order.webp" alt="shopphoto">
+                <img class="hidden-photo" src="./imgs/order2.webp" alt="">
+            </div>
+
+            <div class="delivery-text">
+                <h2 style="font-family: 'Shantell Sans', cursive;color: #532C1F;">Today deserve delivery</h2>
+                <p style="font-family: 'Julee', cursive;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime ad at amet neque beatae dolor cum a
+                    adipisci eos saepe.</p>
+                <p style="font-family: 'Julee', cursive;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime ad at amet neque beatae dolor cum a
+                    adipisci eos saepe.</p>
+                <a href="https://www.swiggy.com/restaurants/cafe-peter-nda-pashan-road-bavdhan-pune-9398"
+                    class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- downlode app -->
+    <section class="app" id="app" style="background-image: linear-gradient( to right,#8b6c5c,#a08679,#6a4a3a,#765341);">
+        <div class="heading">
+            <span>Our App</span>
+            <h1 style="font-family: 'Shantell Sans', cursive;color: #532C1F;">Download App</h1>
+        </div>
+        <div class="container">
+
+            <div class="app-text">
+                <h2 style="font-family: 'Shantell Sans', cursive;color: #532C1F;">fall into an easier routine</h2>
+                <p style="font-family: 'Julee', cursive;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime ad at amet neque beatae dolor cum a
+                    adipisci eos saepe.</p>
+                <p style="font-family: 'Julee', cursive;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime ad at amet neque beatae dolor cum a
+                    adipisci eos saepe.</p><br>
+                <a href="https://play.google.com/store/apps/details?id=io.appery.project320490&hl=en_IN&gl=US"
+                    class="btn">Get App</a>
+            </div>
+            <div class="app_img">
+                <img src="./imgs/app-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About us -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./imgs/img4.jpeg" alt="">
+        </div>
+        <div class="app-text">
+            <h2 style="font-family: 'Shantell Sans', cursive;color: #532C1F;">About us</h2><br>
+            <h2 style="font-family: 'Shantell Sans', cursive;color: #532C1F;">50 years of saving communities</h2><br>
+            <p style="font-family: 'Julee', cursive;">Café Coffee Day, a part of Coffee Day Global Limited, is India’s
+                favourite hangout for coffee and conversations.
+                Popularly known as CCD, we strive to provide the best experience to our guests. </p>
+            <p style="font-family: 'Julee', cursive;">Our coffees are sourced from thousands of small coffee planters,
+                who made us who we are today and we're glad to be a part of their lives. We opened our first
+                cafe in 1996 at Brigade Road in Bangalore the youth and the young at heart immediately took to the cafe,
+                and it continues to be one of the most happening places in the city. .</p>
+            <a href=https://en.wikipedia.org/wiki/Caff%C3%A8_corretto class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- contact us -->
+    <div class="containercu">
+        <form>
+            <h1 style="font-family: 'Shantell Sans', cursive;">Contact Us</h1><br>
+            <input type="text" id="Firstname" required placeholder="firstname">
+            <input type="text" id="Lastname" required placeholder="Lastname">
+            <input type="text" id="Email" required placeholder="email">
+            <input type="text" id="MobileNo" required placeholder="Mobileno">
+            <h4>Type Your Message Here....</h4>
+            <textarea required></textarea>
+            <input text="submit" value="send" id="button">
+        </form>
+
+    </div>
+
+    <!-- Social media  -->
+    <section class="contact" id="contact" style="background-color:#D7B7A3;">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+        <div class="links">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Our Company</a>
+        </div>
+        <p style="font-weight: bold; font-size: 20px;">&#169; Thanks for watching</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- link to custom js -->
+    <script src="home.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
